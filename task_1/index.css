@@ -1,0 +1,454 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+}
+
+li
+{
+    list-style: none;
+    
+}
+li a
+{
+    color: black !important;
+    transition: all 0.2s ease-in;
+}
+
+
+
+.list-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.list-box li a:hover
+{
+    background-color: #3fa9f5;
+    color: white !important;
+}
+
+
+
+.nav-box
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.logo-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.logo-title h4 a{
+    font-size: 2rem;
+    font-family: dancing script,Arial, Helvetica, sans-serif;
+    color: #3fa9f5 !important;
+    cursor: pointer;
+}
+
+.header-list-items 
+{
+    display: flex;
+    column-gap: 1rem;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+div .fa-bars
+{
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+.header-list-items li 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+.nav-link
+{
+    font-size: 0.9rem;
+}
+
+.hamburger-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-name
+{
+    font-size: 2rem;
+    font-family: dancing script, arial;
+    font-weight: 600;
+    color: #3fa9f5;
+}
+
+
+a.first-list-color
+{
+    color: #3fa9f5 !important;
+
+}
+
+
+button 
+{
+    background-color: rgb(88, 142, 235);
+    color: white;
+    border: none;
+    padding: 0.5rem 2.3rem;
+}
+
+
+.first-heading 
+{
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.first-heading-para
+{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.card 
+{
+    border: 1px solid grey;
+}
+
+.card-text
+{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+
+.Copyright-link
+{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.image
+{
+    display: none;
+    width: 100%;
+   height: 100%;
+}
+.slider
+{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 3rem;
+}
+img
+{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.left-btn
+{
+    font-size: 5rem;
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.box-images
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.right-btn
+{
+    font-size: 5rem;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.para-slider-box
+{
+    position: absolute;
+    width: 630px;
+    left: 15%;
+    top: 20%;
+   
+
+}
+.para-slider-box p 
+{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    word-spacing: 0.5px;
+    color: white;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    
+}
+.para-slider-heading
+{
+    
+    width: 100px;
+    color: white;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.box-image 
+{
+    height: 250px;
+}
+
+.card-content
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mini-heading
+{
+    height: 80px;
+    font-weight: 600;
+}
+.mini-para
+{
+    height: 120px;
+}
+
+.card 
+{
+    height: 100%;
+    text-align: justify;
+    word-spacing: normal;
+}
+
+
+
+footer {
+    background-color: #e9efff;
+}
+
+footer div ul
+{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1rem;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.main-content-para 
+{
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+
+.footer-box
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-list
+{
+    padding-right: 0;
+}
+
+.footer-list li a:hover
+{
+    background-color: #3fa9f5;
+    color: white !important;
+}
+
+.mini-footer-box
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .para-slider-box
+    {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: auto;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    
+    }
+    nav 
+    {
+        padding: 0 !important;
+        /* position: relative; */
+        
+    }
+
+    .nav-box
+    {
+        display: flex;
+        border-bottom: 1px solid rgb(215, 206, 206);
+        position: relative;
+        
+    }
+   
+
+    .header-list-items
+    {
+        display: flex;
+        flex-direction: column;
+        row-gap: .9rem;
+        
+    }
+    .list-box
+{
+    display: block;
+    position: absolute;
+    /* left: -100%; */
+    left: 0%;
+    top: -50vh;
+    width: 100vw;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     transition:  ease-in-out .6s ;
+}
+
+.list-box.show
+{
+    background-color: white;
+    left: 0%;
+    width: 100vw;
+    top: 100%;
+    z-index: 100;
+    transition: ease-in-out .6s ;
+  
+ 
+   
+}
+.list-box.show li
+{
+   padding-left: 12px;
+  
+}
+   
+
+
+
+
+    div .fa-bars
+{
+    font-size: 2rem;
+    display: block
+}
+
+
+    .full-container
+    {
+        margin-left: 0;
+    }
+
+   .first-right-main-content
+   {
+    margin-bottom: 3rem;
+   }
+    
+   .card-full-box
+   {
+    margin-bottom: 2rem;
+   }
+
+   .footer-list
+   {
+    display: flex;
+    flex-direction: column;
+   }
+ 
+   .footer-box
+   {
+    display: flex;
+    justify-content: flex-start;
+   }
+
+   .footer-list
+   {
+    display: flex;
+    flex-direction: column;
+    row-gap: .8rem;
+    padding-left: 0;
+   }
+
+   .header-list-items li
+   {
+    transition: all ease-in 0.3s;
+    margin-left: 0;
+   }
+
+   .header-list-items li a 
+   {
+    border-bottom: 1px solid gainsboro;
+   }
+
+
+  
+}
+  
+@media only screen and (min-width:768px) and (max-width: 995px)
+{
+
+    .card-content
+    {
+      height: 250px;
+      margin-bottom: 2rem;
+    }
+    .mini-heading
+    {
+     height: 90px;
+     margin-bottom: 1rem;
+    }
+ 
+    .mini-para
+    {
+     height: 160px;
+    }
+   }
+ 
